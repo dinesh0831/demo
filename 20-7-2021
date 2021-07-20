@@ -1,0 +1,34 @@
+difference between js and node js
+js can be run inside of the browser------- nodejs run in outside of the browser
+js basicaly used in client side--------node js used in server side
+js can run in any browser engine---------node js can be run in only v8 engine
+js is a programing language for spripting a websites-------node js is runtime environment
+It is the upgraded version of ECMA script that uses Chrome’s V8 engine written in C++------Nodejs is written in C, C++ and Javascrip
+ 
+ 
+ from youtube video:
+ parsing-->dom tree
+ domtree-->rendering tree
+ they had 4 tree
+ 1.render object
+ 2.render style
+ 3.render objects
+ 4.lineboxes
+ paint compute bitmaps and composites on screen
+ layout computes wher a node will be on the screen 
+
+
+typeof(1)
+"number"
+typeof(1.1)
+"number"
+typeof(true)
+"boolean"
+typeof(null)
+"object"
+typeof(undefined)
+"undefined"
+typeof([])
+"object"
+typeof({})
+"object"
