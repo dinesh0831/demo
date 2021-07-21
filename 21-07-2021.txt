@@ -5,6 +5,8 @@
           { person: "Name 3", age: "8", company: "GUVI geek network" },
         ]
     use the above JSON to iterate over all for loops (for, for in, for of, forEach)
+    
+    
     for loop==
     {person: "Name 1", age: "2", company: "GUVI"}age: "2"company: "GUVI"person: "Name 1"__proto__: Object
  {person: "Name 2", age: "5", company: "GUVI geek"}age: "5"company: "GUVI geek"person: "Name 2"__proto__: Object
