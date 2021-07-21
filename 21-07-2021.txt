@@ -36,6 +36,18 @@ __proto__: Object
 script.js:6 
 
 
+    2)
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "https://restcountries.eu/rest/v2/all");
+        xhr.onload = function () {
+          var data = JSON.parse(this.response);
+          console.log(data);
+        };
+        xhr.send();
+    use the restcountries API url ->  https://restcountries.eu/rest/v2/all
+    and display all the country flags in console
+    3) use the same restcountries and print all countries name, region, sub region and population
+
 
 country name with flag url:
 script.js:7 Afghanistan
