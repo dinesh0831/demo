@@ -9,8 +9,29 @@
     {person: "Name 1", age: "2", company: "GUVI"}age: "2"company: "GUVI"person: "Name 1"__proto__: Object
  {person: "Name 2", age: "5", company: "GUVI geek"}age: "5"company: "GUVI geek"person: "Name 2"__proto__: Object
 {person: "Name 3", age: "8", company: "GUVI geek network"}age: "8"company: "GUVI geek network"person: "Name 3"__proto__
-for in==
 
+
+for...in==
+names
+age
+city
+
+
+for...of==
+{names: "John", age: 30}
+age: 30
+names: "John"
+__proto__: Object
+script.js:6 
+{names: "Doe", age: 35}
+age: 35
+names: "Doe"
+__proto__: Object
+ 
+ 
+ foreach===
+{names: "John", age: 30}age: 30names: "John"__proto__: Object
+script.js:6 
 
 
 
