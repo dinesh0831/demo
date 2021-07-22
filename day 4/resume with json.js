@@ -6,4 +6,4 @@ var resume={objective:"A highly disciplined and hardwoking individual looking fo
               softwareskills:["javascript","puthon","html","css"],personel_details:{name:"dinesh",fathername:"palani",contact_no:"1234567890",mail_ID:"dineshbabu0831@gmail.com"},
               declaration:"i hereby declare that information furnished above is true to the best of my knowledge"
 }
-console.log(resume.education[0].institute)
+console.log(resume)
