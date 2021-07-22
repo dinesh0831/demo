@@ -1,0 +1,21 @@
+statically typed language
+-----------------------
+    A language is statically typed if the type of a variable is known at compile time
+
+dynamically typed language
+-------------------------
+    A language is dynamically typed if the type is associated with run-time values, and not named variables/fields/etc.
+
+scripting language
+-----------------
+    Scripting languages are interpreted within another program. JavaScript is embedded within a browser and interpreted by that browser.
+
+programmed language
+-------------------
+    Programming languages like Java are compiled and not interpreted by another application in the same way.
+
+difference between http1 and http2
+-----------------------------------
+HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. 
+In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource. 
+HTTP/2 does this by splitting data into binary-code messages and numbering these messages so that the client knows which stream each binary message belongs to.
