@@ -1,0 +1,30 @@
+class person
+{
+    constructor(name,age,degree,){
+    this.name=name;
+    this.age=age
+    this.degree=degree;
+    }
+    setName(name)
+    {
+        this.name=name;
+    }
+    setAge(age)
+    {
+        this.age=age;
+    }
+    setDegree(degree)
+    {
+        this.degree=degree;
+    }
+    getName(){
+        console.log(this.name)
+    }
+    getAge(){
+        console.log(this.age)
+    }
+    getDegree(){
+        console.log(this.degree)
+    }
+}
+var detail=new person("dinesh",24,"be");
